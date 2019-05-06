@@ -11,7 +11,7 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        // On créé un parking avec 2 places
+        // On créé une ruche vide
         Ruche r = new Ruche("BeeHome", "Vide", 0);
 
         // On créé 5 abeilles
