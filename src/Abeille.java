@@ -37,7 +37,7 @@ public class Abeille extends Thread {
                 System.out.println(nom + " : Je butine pendant " + t + " sec");
                 abeille.setEtat("Je butine");
                 for(int i = 0 ; i < t ; i++) {
-                    abeille.setChargement(t);
+                    abeille.setChargement(i);
                     poids++;
                     Thread.sleep(1000);
                 }
